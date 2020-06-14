@@ -1,0 +1,17 @@
+.container {
+  width: 800px;
+  height: 800px;
+}
+
+.menuicon {
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.h2 {
+  padding-left: 30px;
+}
+
+.menu {
+  color: blue;
+  width: 30px;
+}

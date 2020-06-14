@@ -1,0 +1,43 @@
+.menu {
+  width: 20rem;
+  text-align: right;
+}
+.button {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #ff9028;
+  background-color: #fd7a00;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 25%;
+
+  padding: 9px 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.84;
+}
+.button:active {
+  transform: scale(0.95);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.accountsign {
+  font-weight: 300;
+  font-family: monospace;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.dropdown {
+  padding-left: 10px;
+  padding-top: 7px;
+}

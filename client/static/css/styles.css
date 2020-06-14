@@ -1,0 +1,14 @@
+@viewport {
+  zoom: 1;
+  width: extend-to-zoom;
+}
+
+#nprogress .bar {
+  height: 4px !important;
+}
+
+body {
+  background-color: rgba(184, 184, 184, 0.932);
+  font-family: Gill Sans, sans-serif;
+  font-weight: 300;
+}

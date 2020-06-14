@@ -1,0 +1,136 @@
+.container {
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 20px 14px 28px rgba(0, 0, 0, 0.25),
+    20px 10px 10px rgba(0, 0, 0, 0.22);
+  max-width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #ffffff;
+  font-weight: 600;
+}
+
+.h2 {
+  padding-left: 4%;
+  margin-left: auto;
+  padding-top: 2%;
+  font-family: Gill Sans, sans-serif;
+  font-weight: 300;
+}
+
+.formtop {
+  padding: 15px;
+  overflow: auto;
+}
+
+.button {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ff9028;
+  background-color: #fd7a00;
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 10%;
+  padding: 9px 60px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.84;
+}
+.button:active {
+  transform: scale(0.95);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.fb {
+  width: 100%;
+  padding: 12px;
+  padding-left: 45px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #3b5998;
+  color: white;
+}
+
+.fb:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.89;
+}
+
+.fb:active {
+  transform: scale(0.95);
+}
+
+.fb:focus {
+  outline: none;
+}
+
+/* The Modal (background) */
+.modal {
+  /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalcontent {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 25px;
+  border: 2px solid #888;
+  width: 70%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn {
+  margin-left: 20px;
+}
+
+.accountsign {
+  font-weight: 300;
+  font-family: monospace;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
